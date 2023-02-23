@@ -2,7 +2,10 @@
 
 Exercícios para treinar Programação Orientada a Objetos.
 
+ <a href="/desafios/Exercicios-POO.pdf">Descrição dos Exercícios</a> 
+
 ## Exercício 01
+
 
 Implementado com o padrão de projeto Composite.
 
