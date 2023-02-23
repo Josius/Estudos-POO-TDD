@@ -1,36 +1,16 @@
 package coo.tdd.exercicio.um.classes.veiculos;
 
 import coo.tdd.exercicio.um.enums.Estado;
+import lombok.Getter;
+import lombok.Setter;
 
+@Getter
+@Setter
 public abstract class VeiculoMovidoACombustao extends VeiculoBase {
 
 	private String placa;
 	private boolean isLigado;
 	protected int litrosCombustivel;
-
-	public String getPlaca() {
-		return placa;
-	}
-
-	public void setPlaca(String placa) {
-		this.placa = placa;
-	}
-
-	public boolean isLigado() {
-		return isLigado;
-	}
-
-	public void setLigado(boolean isLigado) {
-		this.isLigado = isLigado;
-	}
-
-	public int getLitrosCombustivel() {
-		return litrosCombustivel;
-	}
-
-	public void setLitrosCombustivel(int litrosCombustivel) {
-		this.litrosCombustivel = litrosCombustivel;
-	}
 
 	public void ligar() {
 		if (this.isLigado) {
