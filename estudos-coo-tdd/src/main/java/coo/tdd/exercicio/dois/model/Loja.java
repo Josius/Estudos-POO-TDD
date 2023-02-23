@@ -18,6 +18,11 @@ public class Loja {
 	private List<Livro> livros;
 	private List<VideoGame> videoGames;
 
+	public void listaTodosOsProdutos(){
+		listaLivros();
+		listaVideoGames();
+	}
+
 	public void listaLivros() {
 		System.out.println("-----------------------------------------------------------------"
 				+ "\nA loja Americanas possui estes livros para venda:");

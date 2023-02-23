@@ -32,8 +32,7 @@ public class Main {
 		ps4Usado.calculaImposto();
 		ps4.calculaImposto();
 		
-		americanas.listaLivros();
-		americanas.listaVideoGames();
+		americanas.listaTodosOsProdutos();
 		americanas.calculaPatrimonio();
 		
 	}
