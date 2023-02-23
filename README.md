@@ -2,7 +2,7 @@
 
 Exercícios para treinar Programação Orientada a Objetos.
 
- <a href="/desafios/Exercicios-POO.pdf">Descrição dos Exercícios</a> 
+ <a href="https://github.com/Josius/Estudos-POO-TDD/blob/main/desafios/Exercicios%20POO.pdf">Descrição dos Exercícios</a> 
 
 ## Exercício 01
 
