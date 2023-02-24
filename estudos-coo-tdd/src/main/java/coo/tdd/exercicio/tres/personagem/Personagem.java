@@ -2,6 +2,13 @@ package coo.tdd.exercicio.tres.personagem;
 
 import java.util.Random;
 
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+
+@Getter
+@Setter
+@NoArgsConstructor
 public abstract class Personagem {
 
 	private static final int TREZENTOS = 301;
@@ -16,10 +23,6 @@ public abstract class Personagem {
 	private int level;
 	private Random rnd;
 
-	public Personagem() {
-		super();
-	}
-
 	public Personagem(String nome, int vida, int mana, float xp, int inteligencia, int forca, int level) {
 		super();
 		this.nome = nome;
@@ -30,63 +33,7 @@ public abstract class Personagem {
 		this.forca = forca;
 		this.level = level;
 		this.rnd = new Random();
-		this.qtdPersonagens++;
-	}
-
-	public String getNome() {
-		return nome;
-	}
-
-	public void setNome(String nome) {
-		this.nome = nome;
-	}
-
-	public int getVida() {
-		return vida;
-	}
-
-	public void setVida(int vida) {
-		this.vida = vida;
-	}
-
-	public int getMana() {
-		return mana;
-	}
-
-	public void setMana(int mana) {
-		this.mana = mana;
-	}
-
-	public float getXp() {
-		return xp;
-	}
-
-	public void setXp(float xp) {
-		this.xp = xp;
-	}
-
-	public int getInteligencia() {
-		return inteligencia;
-	}
-
-	public void setInteligencia(int inteligencia) {
-		this.inteligencia = inteligencia;
-	}
-
-	public int getForca() {
-		return forca;
-	}
-
-	public void setForca(int forca) {
-		this.forca = forca;
-	}
-
-	public int getLevel() {
-		return level;
-	}
-
-	public void setLevel(int level) {
-		this.level = level;
+		Personagem.qtdPersonagens++;
 	}
 
 	public void aumentarForca(int pontuacao) {

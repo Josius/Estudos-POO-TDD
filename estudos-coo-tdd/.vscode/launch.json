@@ -8,6 +8,13 @@
 			"type": "java",
 			"name": "Launch Main",
 			"request": "launch",
+			"mainClass": "coo.tdd.exercicio.tres.main.Main",
+			"projectName": "estudos-coo-tdd"
+		},
+		{
+			"type": "java",
+			"name": "Launch Main",
+			"request": "launch",
 			"mainClass": "coo.tdd.exercicio.dois.main.Main",
 			"projectName": "estudos-coo-tdd"
 		},
